@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+<h3>¿Alcohol o gasolina?</h3>
+
+<script>
+
+document.write("Gasolina");
+document.write("<br>");
+document.write("<br>");
+
+
+var tanque = 40
+var caminoConGasonila = 480
+var consumoDeGasolina = caminoConGasonila/tanque
+
+document.write("La eficiencia del carro usando gasolina es " + consumoDeGasolina + " km/L");
+document.write("<br>");
+document.write("<br>");
+
+document.write("Alcohol");
+document.write("<br>");
+document.write("<br>");
+
+var caminoConAlcohol = 300
+var consumoDeAlcohol = caminoConAlcohol/tanque
+
+
+document.write("La eficiencia del carro usando gasolina es " + consumoDeAlcohol + " km/L");
+
+</script>
